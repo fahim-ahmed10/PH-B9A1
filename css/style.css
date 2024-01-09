@@ -140,3 +140,56 @@ main section#three .midnight_party_content>button {
   text-transform: uppercase;
 
 }
+
+main section#four {
+  height: 482px;
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+main section#four .join_now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+main section#four .join_now>p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+main section#four .join_now>p>span {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  /* 175% */
+  text-transform: capitalize;
+}
+
+main section#four .join_now>button {
+  margin-top: 50px;
+  border-radius: 8px;
+  background: #F00;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
+  outline: none;
+
+}
