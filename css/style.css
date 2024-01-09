@@ -195,20 +195,20 @@ main section#four .join_now>button {
 
 }
 
-main section#fifth .comming_soon_2024 {
+main section#five .comming_soon_2024 {
   display: flex;
   width: 1320px;
   height: 470px;
   gap: 100px;
-  margin: 50px auto;  
+  margin: 50px auto 100px;
 
 }
 
-main section#fifth .comming_soon_2024>.comming_soon {
+main section#five .comming_soon_2024>.comming_soon {
   width: 393px;
 }
 
-main section#fifth .comming_soon_2024>.comming_soon>h4 {
+main section#five .comming_soon_2024>.comming_soon>h4 {
   color: #F00;
   font-family: 'Inter', sans-serif;
   font-size: 24px;
@@ -218,7 +218,7 @@ main section#fifth .comming_soon_2024>.comming_soon>h4 {
   padding-bottom: 20px;
 }
 
-main section#fifth .comming_soon_2024>.comming_soon>h2 {
+main section#five .comming_soon_2024>.comming_soon>h2 {
   color: #070211;
   font-family: 'Merriweather', serif;
   font-size: 48px;
@@ -229,7 +229,7 @@ main section#fifth .comming_soon_2024>.comming_soon>h2 {
   padding-bottom: 20px;
 }
 
-main section#fifth .comming_soon_2024>.comming_soon>p {
+main section#five .comming_soon_2024>.comming_soon>p {
   color: rgba(7, 2, 17, 0.60);
   font-family: 'Inter', sans-serif;
   font-size: 20px;
@@ -239,21 +239,21 @@ main section#fifth .comming_soon_2024>.comming_soon>p {
 
 }
 
-main section#fifth .comming_soon_2024>.comming_soon_image {
+main section#five .comming_soon_2024>.comming_soon_image {
   background-image: url('../resources/Ellipse\ 1.png');
-  background-size: contain;
-  width: 463px;
-  height: 463px;
-  flex-shrink: 0;
-  border-radius: 463px;
+  background-size: cover;
+  width: 364.844px;
+  height: 364.844px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
   border: 15px solid #F00;
 }
 
-main section#fifth .comming_soon_2024>.new_year_2024 {
+main section#five .comming_soon_2024>.new_year_2024 {
   width: 276px;
 }
 
-main section#fifth .comming_soon_2024>.new_year_2024>h1 {
+main section#five .comming_soon_2024>.new_year_2024>h1 {
   color: #F00;
   font-family: 'Inter', sans-serif;
   font-size: 48px;
@@ -262,7 +262,7 @@ main section#fifth .comming_soon_2024>.new_year_2024>h1 {
   line-height: normal;
 }
 
-main section#fifth .comming_soon_2024>.new_year_2024>p {
+main section#five .comming_soon_2024>.new_year_2024>p {
   color: rgba(7, 2, 17, 0.60);
   font-family: Inter;
   font-size: 20px;
@@ -271,9 +271,100 @@ main section#fifth .comming_soon_2024>.new_year_2024>p {
   line-height: 32px;
 }
 
-main section#fifth .comming_soon_2024>.new_year_2024>img {
+main section#five .comming_soon_2024>.new_year_2024>img {
   width: 140px;
   height: 140px;
   flex-shrink: 0;
 }
 
+main section#six .holidays_sale_div {
+  width: 1320px;
+  margin: 50px auto;
+}
+
+main section#six .holidays_sale_div>.sale_content {
+  display: flex;
+  flex-direction: column;
+  width: 1068px;
+  height: 229px;
+  margin: 50px auto;
+  text-align: center;
+
+}
+
+main section#six .holidays_sale_div>.sale_content>h5 {
+  color: #070211;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main section#six .holidays_sale_div>.sale_content>h1 {
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding: 15px 0;
+}
+
+main section#six .holidays_sale_div>.sale_content>h1>span {
+  color: #F00;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+main section#six .holidays_sale_div>.sale_content>p {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 80px;
+
+}
+
+main section#six .holidays_sale_div>.sale_image {
+  position: relative;
+}
+
+main section#six .holidays_sale_div>.sale_image>.discount {
+  width: 206.841px;
+  height: 206.841px;
+  flex-shrink: 0;
+  border-radius: 16px 16px 0px 0px;
+  position: absolute;
+  right: 310px;
+  top: 170px;
+}
+
+main section#six .holidays_sale_div>.sale_image>.dis_shopping {
+  width: 429px;
+  height: 433px;
+  flex-shrink: 0;
+  border-radius: 16px 16px 0px 0px;
+  display: inline-flex;
+  float: right;
+}
+
+main section#six .holidays_sale_div>.voucher_box {
+  position: relative;
+}
+
+main section#six .holidays_sale_div>.voucher_box>.v_box {
+  width: 680px;
+  height: 450px;
+  flex-shrink: 0;
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+}
