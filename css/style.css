@@ -7,13 +7,13 @@
 main>section>article>.new_year_image {
   background-image: url("../resources/Banner Image.png");
   background-size: 100%;
-  border-radius: 16px;  
+  border-radius: 16px;
   width: 1320px;
   height: 600px;
   margin: 0 auto;
 }
 
-main section .new_year_content{
+main section .new_year_content {
   width: 1320px;
   height: 600px;
   display: flex;
@@ -22,13 +22,14 @@ main section .new_year_content{
   flex-shrink: 0;
   flex-direction: column;
 }
+
 main section .new_year_content>h3 {
   color: #ffffff;
   font-family: 'Merriweather', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal; 
+  line-height: normal;
 }
 
 main section .new_year_content>h1 {
@@ -38,5 +39,51 @@ main section .new_year_content>h1 {
   font-style: normal;
   font-weight: 900;
   line-height: 95px;
-  
+
+}
+
+main section .discount_on_sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main section .discount_on_sale>h3 {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+main section .discount_on_sale>h4 {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main section .discount_on_sale>p {
+  color: #070211;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main section .happy_new_year {
+  background-image: url('../resources/New\ Year\ Photo.png');
+  background-size: contain;
+  width: 802.9px;
+  height: 500px;
+  margin: 50px auto;
 }
