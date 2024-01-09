@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+/*
+  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
+
+*/
+
 main>section>article>.new_year_image {
   background-image: url("../resources/Banner Image.png");
   background-size: 100%;
@@ -42,7 +48,7 @@ main section .new_year_content>h1 {
 
 }
 
-main section .discount_on_sale {
+main section#two .discount_on_sale {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +56,7 @@ main section .discount_on_sale {
   margin-top: 50px;
 }
 
-main section .discount_on_sale>h3 {
+main section#two .discount_on_sale>h3 {
   color: #F00;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -60,7 +66,7 @@ main section .discount_on_sale>h3 {
   margin-bottom: 20px;
 }
 
-main section .discount_on_sale>h4 {
+main section#two .discount_on_sale>h4 {
   color: #F00;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -70,7 +76,7 @@ main section .discount_on_sale>h4 {
   line-height: normal;
 }
 
-main section .discount_on_sale>p {
+main section#two .discount_on_sale>p {
   color: #070211;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -80,10 +86,57 @@ main section .discount_on_sale>p {
   line-height: normal;
 }
 
-main section .happy_new_year {
+main section#two .happy_new_year {
   background-image: url('../resources/New\ Year\ Photo.png');
   background-size: contain;
   width: 802.9px;
   height: 500px;
   margin: 50px auto;
+}
+
+main section#three .midnight_party {
+  background-image: url('../resources/Vectorrr.png');
+  background-size: contain;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  padding: 126px 126px 10px 126px
+}
+
+main section#three .midnight_party_content>h2 {
+  color: #FFF;
+  font-family: 'Merriweather', serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-bottom: 20px;
+}
+
+main section#three .midnight_party_content>p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+main section#three .midnight_party_content>button {
+  background-color: rgb(255, 229, 29);
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
 }
